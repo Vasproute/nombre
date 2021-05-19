@@ -7,11 +7,19 @@
   <title>Projet PHP</title>
 </head>
 <body>
-  <form method="POST" action="reponse.php">
-    <input type="text" name="usr" placeholder="username">
-      
-  </form>
+  <form method="post" action="traitement.php">
+    <p>Pseudo : <input type="text" name="user"></p>
+    <p>Nombre entre 0 et 100 : <input type="number" name="number" min="0" max="100"></p>
+    <p><input type="submit" value="envoyer"></p>
+    
   
+  
+  
+  
+  </form>
+  <?php
+
+  ?>
   
   
 </body>
